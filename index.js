@@ -33,7 +33,7 @@ io.on('connection',(socket)=>{
         socket.broadcast.emit('chatmessage',data)
     })
 socket.on('feedback',(data)=>{
-    socket.broadcast.emit('feedback',data)
+    socket.broadcast.emit('feedback',data)``
 })
 
     })
